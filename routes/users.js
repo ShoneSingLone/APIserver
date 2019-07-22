@@ -11,9 +11,11 @@ router.get("/", (req, res, next) => {
   global
     .$axios(targetURL.href)
     .then(async content => {
+      let data = content.data.filter(file => file.type === "file");
+      
       res.json({
         isSuccess: true,
-        data: content.data.filter(file => file.type === "file"),
+        data,
       });
     })
     .catch((error) => {
