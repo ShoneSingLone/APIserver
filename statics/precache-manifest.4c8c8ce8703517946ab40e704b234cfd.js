@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/js/about.2ff04381.js"
   },
   {
-    "revision": "18367ea624cdf596db88",
+    "revision": "242b0ee8742f7ea8e219",
     "url": "/css/app.c2ceb7f5.css"
   },
   {
-    "revision": "18367ea624cdf596db88",
-    "url": "/js/app.dcbd8a16.js"
+    "revision": "242b0ee8742f7ea8e219",
+    "url": "/js/app.308a843c.js"
   },
   {
     "revision": "5126cb5083b5e080b6f2",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/js/side.6524e40e.js"
   },
   {
-    "revision": "3969b9d72b4a4c9ff26f4e9202a83477",
+    "revision": "0ca51fd4d489b2b7308906d7f104c906",
     "url": "/index.html"
   },
   {
@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/plugins/echo.js"
   },
   {
-    "revision": "e65d96d04378217b8b5caff2fb1b62cb",
-    "url": "/fonts/fa-regular-400.woff2"
-  },
-  {
     "revision": "735ab4f94fbcd57074377afca324c813",
     "url": "/robots.txt"
+  },
+  {
+    "revision": "e65d96d04378217b8b5caff2fb1b62cb",
+    "url": "/fonts/fa-regular-400.woff2"
   },
   {
     "revision": "5d6f33bafb8796634ca4ca2ed5e3a4ad",
@@ -88,12 +88,12 @@ self.__precacheManifest = [
     "url": "/css/font.css"
   },
   {
-    "revision": "b89c6c51aa2999159a6667f97a46a346",
-    "url": "/fonts/fa-brands-400.woff2"
-  },
-  {
     "revision": "8086e197694282b26c7b729945ecc377",
     "url": "/fonts/fa-solid-900.woff2"
+  },
+  {
+    "revision": "b89c6c51aa2999159a6667f97a46a346",
+    "url": "/fonts/fa-brands-400.woff2"
   },
   {
     "revision": "08411abf9508e85f6317e38fba84e8a5",
