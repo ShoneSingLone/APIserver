@@ -26,14 +26,14 @@ router.get("/", (req, res, next) => {
   });
 });
 
-router.post("/profile", upload.single("file"), async (req, res) => {
+router.post("/profile", upload.array("file"), async (req, res) => {
   let {
     file,
     params,
     query,
     body
   } = req;
-  console.log(params);
+  
   res.json({
     params,
     query,

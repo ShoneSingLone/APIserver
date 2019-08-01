@@ -35,13 +35,19 @@
             list-type="picture-card"
             :auto-upload="false"
             :on-change="handleChange"
+            :on-remove="handleChange"
             :on-preview="handlePictureCardPreview"
             :http-request="handleHttpRequest"
-            :file-list="fileList"
             :on-remove="handleRemove">
             <i class="el-icon-plus"></i>
         </el-upload>
+        <ul>
+            <li v-for="(item, index) in fileList" :key="index">
+                {{item.name}}
+            </li>
+        </ul>
     </div>
+    <!-- <canvas id="canvas" style="width:500px;height:500px;"></canvas> -->
     <!-- 引入样式 -->
     <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
     <!-- 开发环境版本，包含了有帮助的命令行警告 -->
