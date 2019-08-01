@@ -75,7 +75,7 @@ let Query = {
          * @return {boolean} result
          */
         "$eq": function (a, b) {
-            return a == b;
+            return a === b;
         },
 
         /**
