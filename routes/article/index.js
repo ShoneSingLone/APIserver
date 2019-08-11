@@ -66,7 +66,8 @@ router.get("/", async (req, res, next) => {
     console.log("pageSize", pageSize);
     const {
         iodb
-    } = require("../../utils/NodeIODB");
+    } = require("../../utils/NodeLibIODB.common");
+    debugger;
     let articlesModel = await iodb.collection("articles");
     let allArticles = articlesModel.documents.filter(file => file.type === "file" && /(.*).md$/g.test(file.name));
     let data = allArticles.slice((pageCurrent - 1) * pageSize, (pageCurrent) * pageSize);

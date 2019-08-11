@@ -1,7 +1,9 @@
 doctype html
 html
   head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    title(id="app-title")= title
+    link(rel='stylesheet', href='/css/main.css',id="style-main")
+    script(defer, src='/js/main.js',id="script-main")
   body
+    #app
     block content

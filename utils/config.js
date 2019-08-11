@@ -5,6 +5,7 @@ dotenv.config({
 });
 
 exports.addEnvValue = function () {
+    /* 添加环境变量 */
     this.global.getEnv = (prop) => {
         let res = process.env[prop];
         if (res) {
